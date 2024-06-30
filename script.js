@@ -72,8 +72,30 @@ console.log(valueOnee == valueTwoo);
 console.log(valueOnee === valueTwoo);
 
 
+//Conditional statement
 
+//if
 
+let value=18;
+
+if(value>=18){
+    console.log("You are Adult");
+}
+
+// if else
+let val=16;
+if(val>=18){
+    console.log("You are Adult");
+}
+else{
+    console.log("You are Minor");
+}
+
+//ternary
+
+let agee = 18;
+let type = (agee>=18) ? "Adult" : "Minor"
+console.log(type);
 
 
 
