@@ -118,10 +118,11 @@ person2.firstName = "Vishnu";
 person2.lastName = "Manoj";
 person2.age = 21;
 person2.eyeColor = "black"
+person2["height"] = 60;
 console.log(person2);
 
 
 //accessing object
 
 console.log(person.firstName);
-console.log(person.age);
+console.log(person["lastName"]);
