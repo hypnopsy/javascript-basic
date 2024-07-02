@@ -1,4 +1,4 @@
-console.log("Hello World");
+/*console.log("Hello World");
 
 
 
@@ -125,4 +125,45 @@ console.log(person2);
 //accessing object
 
 console.log(person.firstName);
-console.log(person["lastName"]);
+console.log(person["lastName"]); */
+
+// function
+
+console.log("Function");
+
+function showstring(){
+
+    console.log("Hello World");
+}
+showstring();
+
+var showstring = function(){
+    console.log("Hello");
+        
+    }
+    showstring();
+
+//arrow function
+
+    var showstring =() => {
+        console.log("Arrow Function Hello world");
+    }
+    showstring();
+
+    //maps
+
+    var number = [1,2,3,4,5];
+
+    var square= number.map((num) =>{
+        return num*num;
+
+    })
+    console.log(square);
+
+
+    var fruits=["Apple","Grape","Orange","Banana"];
+
+    var upper= fruits.map((fruit) =>{
+        return fruit.toUpperCase();
+    })
+    console.log(upper);
