@@ -57,6 +57,7 @@ console.log(arrayOne);
 console.log(arrayOne[1]);
 console.log(arrayOne[0]);
 
+
 arrayOne[3]='banana';
 console.log(arrayOne);
 
@@ -98,5 +99,30 @@ let type = (agee>=18) ? "Adult" : "Minor"
 console.log(type);
 
 
+//Objects
+
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+console.log(person);
+
+const person1 = {
+    firstName:"John",
+    lastname:"Wick",
+    age:40,
+    eyeColor:"black"
+};
+console.log(person1);
 
 
+const person2 = {};
+person2.firstName = "Vishnu";
+person2.lastName = "Manoj";
+person2.age = 21;
+person2.eyeColor = "black"
+person2["height"] = 60;
+console.log(person2);
+
+
+//accessing object
+
+console.log(person.firstName);
+console.log(person["lastName"]);
